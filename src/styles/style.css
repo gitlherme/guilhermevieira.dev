@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plaster&family=Rubik:wght@300;400;500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,85 +6,52 @@
   list-style: none;
 }
 
-body {
-  background-color: #0E1428;
-}
-
-a {
-  text-decoration: none;
-  font-family: "Rubik", sans-serif;
-}
-
-.sidebar-left {
+.sidebar {
   height: 100vh;
+  width: 5%;
+  background-color: #FFAA5A;
   position: fixed;
   grid-area: sidebar;
-  background-color: #D95D39;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-.sidebar-left .main-nav {
+.sidebar .logo {
+  font-family: "Plaster", sans-serif;
+  font-size: 4rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
 }
-.sidebar-left .main-nav li {
-  padding: 2rem 0;
-}
-.sidebar-left .main-nav li a {
-  color: #0E1428;
-  font-size: 2rem;
-  transition: all 0.2s ease-in-out;
-}
-.sidebar-left .main-nav li a:hover {
-  border-bottom: 15px solid #F18805;
-}
-.sidebar-left .social-media ul {
+.sidebar nav ul {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.sidebar-left .social-media ul li {
-  padding: 0 0.4rem;
+.sidebar nav ul li {
+  padding-bottom: 1.5rem;
 }
-.sidebar-left .social-media ul li a {
-  font-size: 0.8rem;
-  color: #F0A202;
-}
-.sidebar-left .social-media ul li a:hover {
-  color: #F18805;
-  font-weight: bold;
-}
-
-html {
-  scroll-behavior: smooth;
+.sidebar nav ul li a {
+  color: #191919;
+  font-size: 1.5rem;
 }
 
 .main-container {
   width: 100%;
   height: 100vh;
+  background-color: #191919;
 }
 
 .content {
   grid-area: content;
-}
-
-.full-section {
   width: 100%;
-  height: 100vh;
 }
 
 .main-container {
   display: grid;
-  grid-template-columns: 30% 1fr 1fr;
+  grid-template-columns: 10% 1fr;
+  grid-column-gap: 100px;
   grid-template-areas: "sidebar content";
-}
-
-h2 {
-  font-family: "Rubik", sans-serif;
-  font-size: 2.4rem;
-  color: #7B9E89;
 }
 
 /*# sourceMappingURL=style.css.map */
