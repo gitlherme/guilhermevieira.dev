@@ -1,5 +1,36 @@
+@media screen and (max-width: 1365px) {
+  .content {
+    .text {
+      width: 100%;
+      padding: $spacing-md;
+    }
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .content {
+    grid-area: content;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .text {
+      width: 600px;
+      text-align: center;
+      h1, h2 {
+        color: $tertiary-color;
+      }
+      p {
+        color: $white;
+        margin-top: $spacing-md;
+      }
+    }
+  }
+}
+
 .content {
-  grid-area: content;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -7,7 +38,6 @@
   justify-content: center;
   align-items: center;
   .text {
-    width: 600px;
     text-align: center;
     h1, h2 {
       color: $tertiary-color;
