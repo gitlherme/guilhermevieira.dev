@@ -1,0 +1,17 @@
+// Font face
+@font-face {
+  font-family: 'Fantasque Sans Mono';
+  src: url('../../../../public/assets/fonts/Fantasque.ttf')
+}
+
+
+// Fonts
+$logo-font: 'Plaster', sans-serif;
+$primary-font: 'Rubik', sans-serif;
+$secondary-font: 'Fantasque Sans Mono', monospace;
+
+// Font Sizes
+$font-sm: 1rem;
+$font-md: 1.5rem;
+$font-lg: 2.5rem;
+$font-xl: 4rem;
