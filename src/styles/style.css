@@ -34,6 +34,11 @@
 .sidebar nav ul li a {
   color: #191919;
   font-size: 1.5rem;
+  transition: 0.3s all ease-in-out;
+}
+.sidebar nav ul li a:hover {
+  color: #FF785A;
+  text-shadow: 2px 2px #191919;
 }
 
 .main-container {
