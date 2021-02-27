@@ -118,11 +118,7 @@ p {
     justify-content: center;
     align-items: center;
   }
-  .content .image {
-    z-index: 2;
-  }
   .content .text {
-    z-index: 2;
     width: 600px;
     text-align: center;
   }
@@ -142,7 +138,11 @@ p {
   justify-content: center;
   align-items: center;
 }
+.content .image {
+  z-index: 2;
+}
 .content .text {
+  z-index: 2;
   text-align: center;
 }
 .content .text h1, .content .text h2 {

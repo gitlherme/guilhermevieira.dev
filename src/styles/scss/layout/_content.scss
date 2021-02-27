@@ -16,11 +16,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    .image {
-      z-index: 2;
-    }
     .text {
-      z-index: 2;
       width: 600px;
       text-align: center;
       h1, h2 {
@@ -41,7 +37,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  .image {
+    z-index: 2;
+  }
   .text {
+    z-index: 2;
     text-align: center;
     h1, h2 {
       color: $tertiary-color;
