@@ -118,7 +118,11 @@ p {
     justify-content: center;
     align-items: center;
   }
+  .content .image {
+    z-index: 2;
+  }
   .content .text {
+    z-index: 2;
     width: 600px;
     text-align: center;
   }
