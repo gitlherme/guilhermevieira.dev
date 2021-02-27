@@ -58,6 +58,7 @@ p {
   }
 }
 .sidebar {
+  z-index: 999;
   background-color: #FFAA5A;
   display: flex;
   justify-content: space-between;
@@ -84,8 +85,14 @@ p {
 }
 .main-container {
   width: 100%;
-  height: 100vh;
+  max-height: 100vh;
   background-color: #191919;
+}
+.main-container canvas {
+  width: 100vw !important;
+  height: 100vh !important;
+  position: absolute;
+  z-index: 1;
 }
 
 @media screen and (min-width: 1366px) {

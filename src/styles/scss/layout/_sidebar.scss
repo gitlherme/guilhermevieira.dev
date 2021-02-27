@@ -48,6 +48,7 @@
 }
 
 .sidebar {
+    z-index: 999;
     background-color: $tertiary-color;
     display: flex;
     justify-content: space-between;
